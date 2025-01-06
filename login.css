@@ -8,13 +8,29 @@
             background-color: #1a0dce;
             color: gold;
             padding: 1rem;
+            display: flex;
             text-align: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header {
+            background-image: url(images/images.jpeg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        header img {
+            width: 150px;
+            height: 150px;
+        }
+        header h1 {
+            justify-content: center;
         }
         nav {
             display: flex;
             justify-content: space-around;
             background-color: gold;
-            padding: 0.5rem;
+            padding: 1rem;
         }
         nav a {
             color: #1a0dce;
